@@ -9,12 +9,12 @@ int main(void)
         printf("NG\n");
     }
     else
-    {int num = 0;
-        for (int i = 1; i <= n; i += 2)
+    {long num = 0;
+        for (long i = 1; i <= n; i += 2)
         {
             num += i;
         }
-        printf("%d\n", num);
+        printf("%ld\n", num);
     }
     return 0;
 }
